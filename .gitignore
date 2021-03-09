@@ -22,58 +22,60 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-# Compiled class file
-*.class
+#
+# Project specific excludes
+#
 
-# Log file
-*.log
-**/test-launch.config
+tomcat
 
-# BlueJ files
-*.ctxt
+#
+# Default excludes
+#
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Binaries
+*.7z
+*.dmg
+*.gz
+*.iso
 *.jar
+*.rar
+*.tar
+*.zip
 *.war
 *.ear
-*.zip
-*.tar.gz
-*.rar
-*.iml
-**/*.vsix
+*.sar
+*.class
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-
-**/.idea/
-**/.gradle
-**/node_modules/
-.DS_Store
+# Maven 
 target/
+
+# IntelliJ project files 
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# eclipse project file
+.settings/
 .classpath
 .project
-.settings
-**/.checkstyle
-target/
-bin/
-**/lib/
-out/
-server/
-.jqwik-database
 
-jdtls/
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
 
-!java-extension/.mvn/wrapper/maven-wrapper.jar
 
-out
-node_modules
-*.vsix
-.vscode-test
-resources/templates/css/**
-resources/templates/js/**
-resources/templates/fonts/**
-dist
+# OS
+.DS_Store
+
+# Misc
+*.swp
+release.properties
+pom.xml.releaseBackup
+pom.xml.tag
+/.metadata/
