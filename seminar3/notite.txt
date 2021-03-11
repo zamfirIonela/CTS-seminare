@@ -1,0 +1,16 @@
+Code review 
+
+Clasa pt magazin online care calc pretul in funtie de tipul produsului
+
+1.Conventii de nume + magic numbers(valori hardcodate)
+-numele clasei nu sugereaza scopul ei;
+-numele functiei "calculeaza" nu este ok
+-numele argumentelor functiei
+-variabila rezultat trebuie redenumita
+-variabila valoare trebuie redenumita
+
+-modifica valorile predefinite
+
+-datele de intrare NU sunt validate
+
+!!nume potrivite pentru nume si variabile!!
