@@ -79,3 +79,7 @@ release.properties
 pom.xml.releaseBackup
 pom.xml.tag
 /.metadata/
+
+.classpath
+.project
+
