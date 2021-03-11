@@ -2,7 +2,7 @@ Code review
 
 Clasa pt magazin online care calc pretul in funtie de tipul produsului
 
-1.Conventii de nume + magic numbers(valori hardcodate)
+1.Conventii de nume + magic numbers(valori hardcodate) + validare
 -numele clasei nu sugereaza scopul ei;
 -numele functiei "calculeaza" nu este ok
 -numele argumentelor functiei
@@ -14,3 +14,8 @@ Clasa pt magazin online care calc pretul in funtie de tipul produsului
 -datele de intrare NU sunt validate
 
 !!nume potrivite pentru nume si variabile!!
+
+
+2.Single Responsability si KISS pentru functii
+-metoda calculeaza pre multe valori intermediare
+-se repeta o parte din prelucrari
