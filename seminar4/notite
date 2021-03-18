@@ -1,0 +1,6 @@
+FAZA 3
+
+SOLID
+-eliminare switch prin tratarea primului caz (new) in mod generic
+-eliminare dependente legate de validarea datelor 
+-eliminare dependente legate de prelucrarea discount-ului 
