@@ -1,0 +1,27 @@
+Code Review:
+
+1. Convenții de nume
+- denumirile variabilelor nu au un singur tipar de scriere (lowerCamelCase sau cu underscore) 
+- denumirile metodelor  nu au un singur tipar de scriere (lowerCamelCase sau cu underscore) 
+- metoda "calculeaza" are o denumire vaga
+- setValoare are denumire vaga
+
+2. Reguli de scriere
+- fiecare variabilă trebuie scrisă pe câte un rând separat
+- trebuie o linie lăsată liberă între metode 
+- toate {} trebuie să se deschidă pe linia cu headerul funcției
+- în metoda "calculeza" structurile for si if nu sunt indentate; exista si niste spatii inutile 
+- cateodata se foloste this. pentru parametrii si cateodata nu 
+- trebuiesc evitate comentariile  
+- metoda "print" poate fi evitata
+- evitatea valorilor hardcodate
+- datele de intrare nu sunt validate
+- if-ul din setValoare nu e frumos aranjat
+
+- nu avem enum de tip Account
+- tip_cont trebuie trecut de la int la enum Account 
+- eliminam constantele standard, buget, premium, super_premium si le punem in enum
+
+- mutam constructorul sus
+- metoda "imprumut()" ar trebui sa fie "getImprumut"
+- eliminam System.out.println din getImprumut si getRata 
