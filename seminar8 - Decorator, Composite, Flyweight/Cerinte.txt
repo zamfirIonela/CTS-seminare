@@ -1,0 +1,14 @@
+1. Modificarea in timpul jocului(la run-time) a caracteristicilor unor super-eroi
+- in timpul jocului super-eroii pot fi dotati cu echipamente noi(isi modifica starea)
+- comportamentul super-eroului(metode) se poate modifica dinamic in functie de 
+interactiunea cu celelalte caractere din joc
+
+//modificari statice - la compilare
+//decorator extinde Supererou si contine referinta la el
+//
+
+2. Pentru a gestiona o structura ierarhica de caractere (de ex o armata sau un grup de 
+jucatori)
+- sa se gaseasca o solutie eficienta care sa permita gruparea jucatorilor
+- un grup poate contine caractere controlate de jucatori sau alte grupuri
+
