@@ -28,7 +28,8 @@ public class Dragon extends Supererou{
 		this.puncteViata += puncte;
 		
 	}
-	
+
+
 	
 
 }

@@ -11,6 +11,7 @@ public abstract class Supererou {
 		this.puncteViata = puncteViata;
 	}
 		
+	
 	public abstract void alearga();
 	public abstract void esteLovit(int puncte);
 	public abstract void seVindeca(int puncte);
