@@ -1,13 +1,29 @@
+STRATEGY
 1. In functie de implicarea in joc (timp petrecut, activitate in timpul jocului, etc) jucatorii primesc puncte bonus. 
 Aceasta strategie este stabilita de departamentul de marketing si se modifica in functie de alte campanii, perioada anului, etc.
 Sa se gaseasca o solutie care sa permita:
 - modificarea strategiei de acordare a bonusului la runtime fara a modifica implementarea jocului
 
 //functie pe care vreau sa o execut (modalitatea de prelucrare)
-//cinevaextern dicteaza ce sa faca obiectul
+//cineva extern dicteaza ce sa faca obiectul=> "ESTE STABILIT DE"
 //se schimba des!  => nu in clasa 
 //setStrategy obligatorie
 
-2. Comportamentul caracterul este influentat de stare lui
+
+STATE
+2. Comportamentul caracterului/jucatorului este influentat de stare lui
 - daca acesta este ranit miscarile sunt afectate
 - daca este afectat de actiunile magice ale celorlalte caractere, actiunile acestuia (modul in care ataca, se apara) sunt afectate
+
+//face ceva diferit in functie de starea lui 
+//starea unui obiect = colectia de atribute 
+//dependenta intre actiunea obiectului de starea lui 
+//la state obiectul pleaca cu o stare initiala
+
+
+3. Jocul are un chat intern
+- vrem sa filtram comentariile / mesajele care nu sunt potrivite
+- mesajele destinate unui anumit player vor fi private
+- difuzare mesaje destinate tuturor
+
+//toate conditiile in acelasi timp 
