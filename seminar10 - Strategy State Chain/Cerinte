@@ -5,8 +5,8 @@ Sa se gaseasca o solutie care sa permita:
 - modificarea strategiei de acordare a bonusului la runtime fara a modifica implementarea jocului
 
 //functie pe care vreau sa o execut (modalitatea de prelucrare)
-//cineva extern dicteaza ce sa faca obiectul=> "ESTE STABILIT DE"
-//se schimba des!  => nu in clasa 
+//!! cineva extern dicteaza ce sa faca obiectul=> "ESTE STABILIT DE"
+//!! se schimba des!  => nu in clasa 
 //setStrategy obligatorie
 
 
@@ -21,9 +21,16 @@ STATE
 //la state obiectul pleaca cu o stare initiala
 
 
+//CHAIN
 3. Jocul are un chat intern
 - vrem sa filtram comentariile / mesajele care nu sunt potrivite
 - mesajele destinate unui anumit player vor fi private
-- difuzare mesaje destinate tuturor
+- difuzare mesaje destinate tuturor; destinatarul este @everyone
 
 //toate conditiile in acelasi timp 
+//daca x atunci y 
+//daca
+//daca 
+//e ca si cum le-ai executa pe toate
+//=> atunci e chain 
+// ! setNext 
